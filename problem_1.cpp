@@ -6,7 +6,7 @@ void floodFill(vector<vector<int>>& image, int sr, int sc, int color, int oldCol
     int n = image.size();
     int m = image[0].size();
     
-    if (sr < 0  sr >= n  sc < 0  sc >= m  image[sr][sc] != oldColor || image[sr][sc] == color) {
+    if (sr < 0 || sr >= n || sc < 0 || sc >= m || image[sr][sc] != oldColor || image[sr][sc] == color) {
         return;
     }
     
