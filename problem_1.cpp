@@ -30,7 +30,6 @@ vector<vector<int>> solve(vector<vector<int>>& image, int sr, int sc, int color)
     return image;
 }
 
-// do not modify the code below
 int main() {
     int n;
     cin >> n;
